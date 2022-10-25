@@ -10,5 +10,6 @@
 .topper-photo img {
 
     height: -webkit-fill-available;
+    width: auto;
 
 }
