@@ -9,7 +9,9 @@
 
 .topper-photo img {
 
-    height: -webkit-fill-available;
+    height: auto;
     width: auto;
+    max-height: 35vh;
+    max-width: 100vw;
 
 }

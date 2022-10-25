@@ -43,7 +43,7 @@ function ResultsFrame ({numOfRightAnswers}) {
         <div className={"results-frame frame"}>
             <TopperPhoto image={image}/>
             <div className="main-body">
-                <Message message={"Твій результат " + userData.rightAnswers + " з 10 Ти справжній Dogecoin!"}/>
+                <Message message={"Твій результат " + userData.rightAnswers + " з 10. Ти справжній Dogecoin!"}/>
                 <img src={emojis} alt=""/>
                 <div className="buttons-area">
                     <StyledButton buttonLabel={"Покращити результат"} onClickEvent={restartQuiz}/>
