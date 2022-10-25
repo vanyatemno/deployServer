@@ -34,7 +34,7 @@ function ResultsFrame ({numOfRightAnswers}) {
 
     useEffect(() => {
         try {
-            if (!userActivity.hasStared) directToStart();
+            if (!userActivity.hasStarted) directToStart();
             setState(userActivity);
         } catch (e) {}
     })

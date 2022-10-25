@@ -17,7 +17,7 @@ export const QuizDataContextProvider = ({children}) => {
                     answers: [
                         {
                             answer: "USDT",
-                            isTrue: true
+                            isTrue: false
                         },
                         {
                             answer: "USDC",
@@ -25,7 +25,7 @@ export const QuizDataContextProvider = ({children}) => {
                         },
                         {
                             answer: "DAI",
-                            isTrue: false
+                            isTrue: true
                         },
                         {
                             answer: "BUSD",
@@ -43,7 +43,7 @@ export const QuizDataContextProvider = ({children}) => {
                         },
                         {
                             answer: "UST",
-                            isTrue: false
+                            isTrue: true
                         },
                         {
                             answer: "DAI",
@@ -83,11 +83,11 @@ export const QuizDataContextProvider = ({children}) => {
                     answers: [
                         {
                             answer: "Etherum",
-                            isTrue: false
+                            isTrue: true
                         },
                         {
                             answer: "Solana",
-                            isTrue: true
+                            isTrue: false
                         },
                         {
                             answer: "Terra",
@@ -109,7 +109,7 @@ export const QuizDataContextProvider = ({children}) => {
                         },
                         {
                             answer: "2017",
-                            isTrue: false
+                            isTrue: true
                         },
                         {
                             answer: "2020",
@@ -139,7 +139,7 @@ export const QuizDataContextProvider = ({children}) => {
                         },
                         {
                             answer: "Polkadot",
-                            isTrue: false
+                            isTrue: true
                         }
                     ]
                 },
@@ -161,7 +161,7 @@ export const QuizDataContextProvider = ({children}) => {
                         },
                         {
                             answer: "Litecoin",
-                            isTrue: false
+                            isTrue: true
                         }
                     ]
                 },
@@ -179,7 +179,7 @@ export const QuizDataContextProvider = ({children}) => {
                         },
                         {
                             answer: "Cardano",
-                            isTrue: false
+                            isTrue: true
                         },
                         {
                             answer: "Bitcoin",
@@ -197,7 +197,7 @@ export const QuizDataContextProvider = ({children}) => {
                         },
                         {
                             answer: "ERC-20",
-                            isTrue: false
+                            isTrue: true
                         },
                         {
                             answer: "TRC-20",
@@ -223,7 +223,7 @@ export const QuizDataContextProvider = ({children}) => {
                         },
                         {
                             answer: "Layer 2",
-                            isTrue: false
+                            isTrue: true
                         },
                         {
                             answer: "Layer 3",

@@ -8,6 +8,7 @@
 }
 
 .topper-photo img {
-    width: inherit;
+
+    height: -webkit-fill-available;
 
 }
