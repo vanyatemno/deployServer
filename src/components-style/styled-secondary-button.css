@@ -1,0 +1,13 @@
+.styled-secondary-button {
+    width: fit-content;
+    height: fit-content;
+}
+
+.styled-secondary-button button {
+    font-size: 1.2rem;
+    color: #808080;
+    width: 14rem;
+    height: 5rem;
+    background: transparent;
+    border: none;
+}

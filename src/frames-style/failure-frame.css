@@ -1,0 +1,19 @@
+.failure-frame {
+    width: 100%;
+    height: 100%;
+}
+
+.failure-frame .main-body {
+
+    height: 65%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+.failure-frame .main-body img {
+    width: 12rem;
+}
